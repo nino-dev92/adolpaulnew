@@ -1,0 +1,33 @@
+.whatsapp {
+  display: flex;
+  gap: 5px;
+  position: fixed;
+  bottom: 20px;
+  right: 15px;
+  z-index: 5;
+  align-items: center;
+  cursor: pointer;
+
+  &:hover {
+    p {
+      opacity: 1;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: green;
+    background-color: white;
+    border-radius: 10px;
+    height: 2.5rem;
+  }
+  p {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: 0.4s ease;
+  }
+}

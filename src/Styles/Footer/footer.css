@@ -1,0 +1,73 @@
+.footer {
+  background-color: green;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.footer-div-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 1px solid white;
+  padding-bottom: 1rem;
+}
+.footer-div-one p {
+  max-width: 30ch;
+  line-height: 23px;
+}
+.footer-div-one .info-div-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.quick-links {
+  display: flex;
+  flex-direction: column;
+}
+.quick-links .quick-links-link {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.quick-links .quick-links-link a {
+  text-decoration: none;
+  color: white;
+  transition: 0.4s ease;
+}
+.quick-links .quick-links-link a:hover {
+  color: red;
+  transform: scaleX(1.1) scaleY(1.1);
+}
+
+.programs-div {
+  display: flex;
+  flex-direction: column;
+}
+.programs-div .programs-div-links {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.programs-div .programs-div-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.contact-div {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.footer-div-two {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.footer-div-two .second-div-p {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}/*# sourceMappingURL=footer.css.map */

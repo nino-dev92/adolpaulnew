@@ -1,0 +1,79 @@
+body {
+  overflow-x: hidden;
+}
+
+.intro-section {
+  margin-top: 10rem;
+  padding: 1rem;
+  text-align: center;
+}
+.intro-section h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: green;
+  margin: 0;
+  margin-bottom: 2rem;
+}
+.intro-section p {
+  font-weight: 600;
+  line-height: 25px;
+  max-width: 95ch;
+  margin: auto;
+  color: red;
+  font-weight: 700;
+}
+
+.card-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+  row-gap: 4rem;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+  padding: 10px;
+  font-weight: 700;
+}
+.card-section .program-card {
+  background-color: white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  cursor: pointer;
+  transition: ease;
+}
+.card-section .program-card:hover {
+  border-radius: 10px;
+  border: 0.5px solid green;
+  transform: scaleY(1.02) scaleX(1.01);
+  box-shadow: 2px 2px 2px 2px rgb(131, 236, 131);
+}
+.card-section .program-card .card-top-section {
+  display: flex;
+  justify-content: space-between;
+}
+.card-section .program-card .card-btn {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 1.5rem;
+  color: white;
+  background-color: green;
+  border-radius: 10px;
+  border: none;
+}
+.card-section .key-modules {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.card-section .key-modules button {
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+.modules {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}/*# sourceMappingURL=programs.css.map */

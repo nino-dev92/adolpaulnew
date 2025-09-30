@@ -1,0 +1,124 @@
+@use "../variables" as *;
+
+.contact-intro-text {
+  text-align: center;
+  margin-top: 9rem;
+  h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: $primary-color;
+    margin: 0;
+    margin-bottom: 2rem;
+  }
+  p {
+    font-weight: 600;
+    line-height: 25px;
+    max-width: 95ch;
+    margin: auto;
+    color: $secondary-color;
+    font-weight: 700;
+  }
+}
+.contact-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 3rem;
+  padding: 10px;
+  margin: 6rem;
+  text-align: start;
+  h3 {
+    text-align: start;
+    font-size: 2rem;
+    font-weight: 700;
+    color: $primary-color;
+    margin: 0;
+    margin-bottom: 2rem;
+  }
+}
+.contact-info-card-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  gap: 2rem;
+  .contact-info-card {
+    height: 10rem;
+    width: fit-content;
+    padding: 10px;
+    display: flex;
+    gap: 1rem;
+    h3 {
+      margin: 0;
+    }
+    p {
+      font-weight: 700;
+      font-size: 15px;
+      margin: 4px;
+      max-width: 40ch;
+      line-height: 20px;
+      color: red;
+    }
+
+    .border-radius {
+      height: 3rem;
+      aspect-ratio: 1/1;
+      background-color: $primary-color;
+      border-radius: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5px;
+    }
+  }
+}
+.form-div {
+  p {
+    color: $secondary-color;
+  }
+}
+.form {
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  input[type="text"],
+  input[type="email"],
+  input[type="number"] {
+    height: 2rem;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+  }
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+  }
+}
+select {
+  height: 2rem;
+  padding: 5px;
+}
+textarea {
+  height: 10rem;
+  padding: 10px;
+}
+.form-btn {
+  width: 60%;
+  margin: auto;
+  height: 3rem;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: 0.4s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    background-color: rgb(38, 186, 38);
+    transform: scaleX(1.1) scaleY(1.1);
+  }
+}

@@ -1,0 +1,149 @@
+.fac-intro-text {
+  text-align: center;
+  margin-top: 9rem;
+}
+.fac-intro-text h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: green;
+  margin: 0;
+  margin-bottom: 2rem;
+}
+.fac-intro-text p {
+  font-weight: 600;
+  line-height: 25px;
+  max-width: 95ch;
+  margin: auto;
+  color: red;
+  font-weight: 700;
+}
+
+.facility-card-container {
+  margin-top: 5rem;
+  margin-bottom: 6rem;
+  display: grid;
+  padding: 3rem;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+.facility-card-container .facility-card {
+  height: -moz-fit-content;
+  height: fit-content;
+  transition: 0.2s ease;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.facility-card-container .facility-card:hover {
+  filter: drop-shadow(1px 1px grey);
+  box-shadow: 1px 1px 1px rgb(203, 200, 200);
+}
+.facility-card-container .facility-card p {
+  padding: 5px;
+  text-align: center;
+  font-weight: 600;
+  max-width: 70ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-div {
+  position: relative;
+}
+.image-div h2 {
+  position: absolute;
+  bottom: 0px;
+  padding: 5px;
+  color: white;
+}
+.image-div .image {
+  width: 100%;
+  height: 300px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.image-div .card-div-two {
+  padding: 10px;
+}
+
+.btn-container {
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.btn-container button {
+  border: none;
+  background-color: green;
+  border-radius: 10px;
+  padding: 3px 10px;
+  color: white;
+}
+
+.additional-facilities {
+  margin: 6rem;
+}
+.additional-facilities h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: green;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.additional-facilities .additional-card-holder {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 2rem;
+  gap: 2rem;
+}
+.additional-facilities .additional-card-holder .additional-card {
+  border-radius: 15px;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  text-align: center;
+  transition: 0.4s ease;
+  cursor: pointer;
+}
+.additional-facilities .additional-card-holder .additional-card:hover {
+  background-color: rgb(208, 204, 204);
+}
+.additional-facilities .additional-card-holder .additional-card h3 {
+  margin: 0;
+}
+.additional-facilities .additional-card-holder .additional-card p {
+  color: red;
+}
+.additional-facilities .additional-card-holder .additional-card .img {
+  margin: auto;
+}
+
+.infrastructure-highlight {
+  margin: 8rem;
+  border: 1px solid rgb(225, 220, 220);
+  border-radius: 10px;
+}
+.infrastructure-highlight h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: green;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.infrastructure-highlight .infrastructure-card-holder {
+  display: flex;
+  gap: 7rem;
+  margin-top: 5rem;
+  justify-content: center;
+}
+.infrastructure-highlight .infrastructure-card-holder .infrastructure-card {
+  width: 15rem;
+  height: 9rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.infrastructure-highlight .infrastructure-card-holder .infrastructure-card h2 {
+  margin: 0;
+}/*# sourceMappingURL=facilities.css.map */

@@ -1,0 +1,150 @@
+@use "../variables" as *;
+.fac-intro-text {
+  text-align: center;
+  margin-top: 9rem;
+  h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: $primary-color;
+    margin: 0;
+    margin-bottom: 2rem;
+  }
+  p {
+    font-weight: 600;
+    line-height: 25px;
+    max-width: 95ch;
+    margin: auto;
+    color: $secondary-color;
+    font-weight: 700;
+  }
+}
+.facility-card-container {
+  margin-top: 5rem;
+  margin-bottom: 6rem;
+  display: grid;
+  padding: 3rem;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  .facility-card {
+    height: fit-content;
+    transition: 0.2s ease;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    &:hover {
+      //   border: 0.5px solid rgb(208, 206, 206);
+      filter: drop-shadow(1px 1px grey);
+      box-shadow: 1px 1px 1px rgb(203, 200, 200);
+    }
+    p {
+      padding: 5px;
+      text-align: center;
+      font-weight: 600;
+      max-width: 70ch;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+.image-div {
+  position: relative;
+  h2 {
+    position: absolute;
+    bottom: 0px;
+    padding: 5px;
+    color: white;
+  }
+  .image {
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .card-div-two {
+    padding: 10px;
+  }
+}
+.btn-container {
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  button {
+    border: none;
+    background-color: $primary-color;
+    border-radius: 10px;
+    padding: 3px 10px;
+    color: white;
+  }
+}
+
+.additional-facilities {
+  margin: 6rem;
+  h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: $primary-color;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .additional-card-holder {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2rem;
+    gap: 2rem;
+    .additional-card {
+      //   border: 1px solid rgb(210, 205, 205);
+      border-radius: 15px;
+      height: 15rem;
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      text-align: center;
+      transition: 0.4s ease;
+      cursor: pointer;
+      &:hover {
+        background-color: rgb(208, 204, 204);
+      }
+      h3 {
+        margin: 0;
+      }
+      p {
+        color: $secondary-color;
+      }
+      .img {
+        margin: auto;
+      }
+    }
+  }
+}
+.infrastructure-highlight {
+  margin: 8rem;
+  border: 1px solid rgb(225, 220, 220);
+  border-radius: 10px;
+  h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: $primary-color;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .infrastructure-card-holder {
+    display: flex;
+    gap: 7rem;
+    margin-top: 5rem;
+    justify-content: center;
+
+    .infrastructure-card {
+      width: 15rem;
+      height: 9rem;
+      //   border: 1px solid grey;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      //   position: absolute;
+      h2 {
+        margin: 0;
+      }
+    }
+  }
+}

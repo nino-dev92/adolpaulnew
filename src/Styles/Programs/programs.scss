@@ -1,0 +1,77 @@
+@use "../variables" as *;
+body {
+  overflow-x: hidden;
+}
+.intro-section {
+  margin-top: 10rem;
+  padding: 1rem;
+  text-align: center;
+  h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: $primary-color;
+    margin: 0;
+    margin-bottom: 2rem;
+  }
+  p {
+    font-weight: 600;
+    line-height: 25px;
+    max-width: 95ch;
+    margin: auto;
+    color: $secondary-color;
+    font-weight: 700;
+  }
+}
+.card-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2rem;
+  row-gap: 4rem;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+  padding: 10px;
+  font-weight: 700;
+
+  .program-card {
+    // height: 30rem;
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    cursor: pointer;
+    transition: ease;
+    &:hover {
+      border-radius: 10px;
+      border: 0.5px solid $primary-color;
+      transform: scaleY(1.02) scaleX(1.01);
+      box-shadow: 2px 2px 2px 2px rgb(131, 236, 131);
+    }
+    .card-top-section {
+      display: flex;
+      justify-content: space-between;
+    }
+    .card-btn {
+      width: fit-content;
+      height: 1.5rem;
+      color: white;
+      background-color: $primary-color;
+      border-radius: 10px;
+      border: none;
+    }
+  }
+  .key-modules {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    button {
+      border-radius: 5px;
+      border: 1px solid grey;
+    }
+  }
+}
+.modules {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}

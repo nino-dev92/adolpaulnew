@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  z-index: 2;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid grey;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+}
+.header .header-links {
+  display: flex;
+  gap: 1.5rem;
+}
+.header .header-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  transition: 0.4s ease;
+}
+.header .header-links a:hover {
+  color: red;
+  transform: scaleX(1.1) scaleY(1.1);
+}
+.header .header-btn {
+  width: 6rem;
+  height: 3rem;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: 0.4s ease;
+}
+.header .header-btn:hover {
+  background-color: rgb(38, 186, 38);
+  transform: scaleX(1.1) scaleY(1.1);
+}
+
+Link :active {
+  color: red;
+}/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,127 @@
+.contact-intro-text {
+  text-align: center;
+  margin-top: 9rem;
+}
+.contact-intro-text h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: green;
+  margin: 0;
+  margin-bottom: 2rem;
+}
+.contact-intro-text p {
+  font-weight: 600;
+  line-height: 25px;
+  max-width: 95ch;
+  margin: auto;
+  color: red;
+  font-weight: 700;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 3rem;
+  padding: 10px;
+  margin: 6rem;
+  text-align: start;
+}
+.contact-section h3 {
+  text-align: start;
+  font-size: 2rem;
+  font-weight: 700;
+  color: green;
+  margin: 0;
+  margin-bottom: 2rem;
+}
+
+.contact-info-card-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  gap: 2rem;
+}
+.contact-info-card-container .contact-info-card {
+  height: 10rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px;
+  display: flex;
+  gap: 1rem;
+}
+.contact-info-card-container .contact-info-card h3 {
+  margin: 0;
+}
+.contact-info-card-container .contact-info-card p {
+  font-weight: 700;
+  font-size: 15px;
+  margin: 4px;
+  max-width: 40ch;
+  line-height: 20px;
+  color: red;
+}
+.contact-info-card-container .contact-info-card .border-radius {
+  height: 3rem;
+  aspect-ratio: 1/1;
+  background-color: green;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.form-div p {
+  color: red;
+}
+
+.form {
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.form input[type=text],
+.form input[type=email],
+.form input[type=number] {
+  height: 2rem;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+.form input[type=number]::-webkit-inner-spin-button,
+.form input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+select {
+  height: 2rem;
+  padding: 5px;
+}
+
+textarea {
+  height: 10rem;
+  padding: 10px;
+}
+
+.form-btn {
+  width: 60%;
+  margin: auto;
+  height: 3rem;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: 0.4s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-btn:hover {
+  background-color: rgb(38, 186, 38);
+  transform: scaleX(1.1) scaleY(1.1);
+}/*# sourceMappingURL=contact.css.map */

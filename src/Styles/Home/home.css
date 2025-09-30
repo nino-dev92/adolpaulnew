@@ -1,0 +1,162 @@
+.hero {
+  background-image: url("../../assets/pics/school1.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 5rem;
+  height: 38rem;
+  animation-name: change;
+  animation-timing-function: ease;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-direction: normal;
+  background-color: rgb(183, 179, 179);
+  background-blend-mode: overlay;
+}
+@keyframes change {
+  50% {
+    background-image: url("../../assets/pics/campus.jpeg");
+  }
+}
+.hero .intro-text {
+  text-align: center;
+  color: green;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero .intro-text h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 0;
+  margin-top: 2rem;
+  margin-left: 0;
+  margin-right: 0;
+  line-height: 100px;
+  justify-content: center;
+}
+.hero p {
+  color: black;
+  font-size: 1.8rem;
+  max-width: 80ch;
+  margin: auto;
+  font-weight: bold;
+  padding: 5px;
+  line-height: 40px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.hero-btn-container {
+  justify-self: center;
+  display: flex;
+  gap: 1rem;
+}
+.hero-btn-container a {
+  text-decoration: none;
+}
+.hero-btn-container .hero-btn {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 2rem;
+  padding: 2rem 2rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  background-color: green;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: 0.4s ease;
+}
+.hero-btn-container .hero-btn:hover {
+  background-color: rgb(38, 186, 38);
+  transform: scaleX(1.1) scaleY(1.1);
+}
+
+.hero-card-section {
+  display: flex;
+  gap: 4rem;
+  margin: 4rem;
+  justify-content: center;
+}
+.hero-card-section .card {
+  padding: 10px;
+  width: 15rem;
+  aspect-ratio: 1/1;
+  text-align: center;
+}
+
+.about-college {
+  text-align: center;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 7rem;
+}
+.about-college h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: green;
+  margin: 2rem;
+}
+.about-college p {
+  color: red;
+  font-weight: 700;
+  max-width: 80ch;
+  margin: auto;
+  font-size: 1.2rem;
+  line-height: 25px;
+  margin-top: 2rem;
+}
+.about-college .why-choose-us {
+  margin: auto;
+}
+.about-college .why-choose-us ul {
+  color: red;
+  text-align: start;
+  line-height: 25px;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.about-card-container {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  justify-content: center;
+  margin: 6rem;
+  cursor: pointer;
+}
+.about-card-container .about-card {
+  padding: 10px;
+  width: 15rem;
+  background-color: white;
+  aspect-ratio: 1/1;
+  text-align: center;
+  transition: 0.2s ease;
+}
+.about-card-container .about-card:hover {
+  transform: scaleX(1.1) scaleY(1.1);
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.about-card-container .about-card p {
+  color: green;
+  font-weight: 700;
+}
+.about-card-container .image-div {
+  height: 4rem;
+  aspect-ratio: 1/1;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=home.css.map */
