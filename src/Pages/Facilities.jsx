@@ -12,6 +12,7 @@ import Water from "../assets/logo/water.png";
 import MedLab from "../assets/logo/microscope.png";
 import Running from "../assets/logo/running.png";
 import Cafeteria from "../assets/logo/cafeteria.png";
+import Equip from "../assets/pics/equip1.jpeg";
 import "../Styles/Facilities/facilities.css";
 
 function Facilities() {
@@ -121,7 +122,7 @@ function Facilities() {
           </div>
           <div className="facility-card">
             <div className="image-div">
-              <img src={MobileHealth} alt="laboratory" className="image" />
+              <img src={Equip} alt="laboratory" className="image" />
               <h2 className="img2 imgh2">Medical Laboratories</h2>
             </div>
             <div className="card-div-two">
