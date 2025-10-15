@@ -3,7 +3,7 @@ body {
   overflow-x: hidden;
 }
 .intro-section {
-  margin-top: 10rem;
+  margin-top: 11rem;
   padding: 1rem;
   text-align: center;
   h2 {
@@ -78,6 +78,9 @@ body {
   gap: 5px;
 }
 @media (max-width: 500px) {
+  .intro-section {
+    margin-top: 5rem;
+  }
   .card-section {
     display: flex;
     flex-direction: column;
@@ -89,6 +92,9 @@ body {
   }
 }
 @media (min-width: 501px) and (max-width: 700px) {
+  .intro-section {
+    margin-top: 6rem;
+  }
   .card-section {
     display: flex;
     flex-direction: column;
@@ -105,7 +111,7 @@ body {
 }
 @media (min-width: 701px) and (max-width: 1000px) {
   .intro-text {
-    margin-top: 2rem;
+    // margin-top: 1rem;
   }
   .card-section {
     display: flex;
