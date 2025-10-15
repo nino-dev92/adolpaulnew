@@ -1,7 +1,7 @@
 @use "../variables" as *;
 .fac-intro-text {
   text-align: center;
-  margin-top: 9rem;
+  margin-top: 14rem;
   h2 {
     font-size: 3rem;
     font-weight: 700;
@@ -150,6 +150,9 @@
 }
 
 @media (max-width: 500px) {
+  .fac-intro-text {
+    margin-top: 9rem;
+  }
   .facility-card-container {
     display: flex;
     flex-direction: column;
@@ -184,6 +187,9 @@
   }
 }
 @media (min-width: 501px) and (max-width: 700px) {
+  .fac-intro-text {
+    margin-top: 9rem;
+  }
   .facility-card-container {
     display: flex;
     flex-direction: column;

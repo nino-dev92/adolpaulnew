@@ -94,7 +94,7 @@ body {
     border-radius: 10px;
   }
 }
-@media (max-width: 700px) {
+@media (min-width: 501px) and (max-width: 700px) {
   .card-section {
     display: flex;
     flex-direction: column;
@@ -109,7 +109,10 @@ body {
     justify-content: center;
   }
 }
-@media (max-width: 1000px) {
+@media (min-width: 701px) and (max-width: 1000px) {
+  .intro-text {
+    margin-top: 2rem;
+  }
   .card-section {
     display: flex;
     flex-direction: column;
