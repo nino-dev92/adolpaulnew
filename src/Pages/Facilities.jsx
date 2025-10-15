@@ -18,6 +18,8 @@ import "../Styles/Facilities/facilities.css";
 function Facilities() {
   return (
     <>
+      <title>Facilities</title>
+
       <Header />
       <main>
         <section className="fac-intro-text">

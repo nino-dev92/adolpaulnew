@@ -9,6 +9,8 @@ import "../Styles/Programs/programs.css";
 function Programs() {
   return (
     <>
+      <title>Programs</title>
+
       <Header />
       <main>
         <section className="intro-section">

@@ -4,7 +4,7 @@ function Whatsapp() {
   return (
     <div className="whatsapp">
       <p>Chat on whatsapp</p>
-      <a href="https://wa.me/2349016955066" target="blank">
+      <a href="https://wa.me/2348035900243" target="blank">
         <FaWhatsappSquare size={40} />
       </a>
     </div>

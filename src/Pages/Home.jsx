@@ -13,6 +13,8 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <>
+      <title>Adol Paul College</title>
+
       <Header />
       <main>
         <section className="hero">
@@ -35,7 +37,7 @@ function Home() {
             </Link>
 
             <a href={pdf} download="student-brochure">
-              <button className="hero-btn">
+              <button className="hero-btn brochure">
                 <FaDownload style={{ marginRight: "10px" }} />
                 Download Brochure
               </button>

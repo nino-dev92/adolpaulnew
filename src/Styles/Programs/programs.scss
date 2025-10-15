@@ -33,8 +33,10 @@ body {
   font-weight: 700;
 
   .program-card {
-    // height: 30rem;
+    max-width: fit-content;
     background-color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -53,7 +55,7 @@ body {
     }
     .card-btn {
       width: fit-content;
-      height: 1.5rem;
+      height: fit-content;
       color: white;
       background-color: $primary-color;
       border-radius: 10px;
@@ -74,4 +76,45 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
+}
+@media (max-width: 500px) {
+  .card-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    .program-card {
+      border: 1px solid grey;
+      border-radius: 10px;
+    }
+  }
+}
+@media (max-width: 700px) {
+  .card-section {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    gap: 1.5rem;
+    .program-card {
+      max-width: 25rem;
+      margin: auto;
+      border: 1px solid grey;
+      border-radius: 10px;
+      justify-content: center;
+    }
+  }
+}
+@media (max-width: 1000px) {
+  .card-section {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    gap: 1.5rem;
+    .program-card {
+      max-width: 25rem;
+      margin: auto;
+      border: 1px solid grey;
+      border-radius: 10px;
+      justify-content: center;
+    }
+  }
 }

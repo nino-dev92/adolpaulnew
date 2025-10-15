@@ -8,8 +8,28 @@ import pdf from "../assets/fomsPdf/application/appForm.pdf";
 function Admissions() {
   return (
     <>
+      <title>Admissions</title>
+
       <Header />
       <main>
+        <section className="ready-to-apply">
+          <div>
+            <h2>Ready to Apply?</h2>
+            <p>
+              Take the first step towards your healthcare career. Download our
+              application form or visit our admissions office for personalized
+              guidance.
+            </p>
+          </div>
+          <div className="btn-container">
+            <a href={pdf} download="application-form">
+              <button>
+                <FaDownload style={{ marginRight: "10px" }} />
+                Download Application Form
+              </button>
+            </a>
+          </div>
+        </section>
         <section className="intro">
           <div className="intro-text">
             <h2>Join Our Community</h2>
@@ -50,7 +70,7 @@ function Admissions() {
               </div>
               <div className="admission-process-card">
                 <div className="circle">
-                  <p>1</p>
+                  <p>3</p>
                 </div>
                 <div>
                   <h3>Entrance Examination</h3>
@@ -103,7 +123,7 @@ function Admissions() {
               <li>Local Government Identification Letter</li>
             </ul>
           </div>
-          <div className="hnd-requirements">
+          <div className="hnd-requirements diploma-requirements">
             <h2>HND Program Requirements</h2>
             <ul>
               <li>
@@ -192,49 +212,49 @@ function Admissions() {
             <thead>
               <th style={{ width: "35rem", textAlign: "left" }}>Fee Item</th>
               <th>Amount</th>
-              <th style={{ textAlign: "right" }}>Note</th>
+              <th style={{ textAlign: "center" }}>Note</th>
             </thead>
             <tr>
               <td style={{ textAlign: "left" }}>Application Form</td>
               <td>
                 <b>₦5,000</b>
               </td>
-              <td style={{ textAlign: "right" }}>Non-refundable</td>
+              <td style={{ textAlign: "center" }}>Non-refundable</td>
             </tr>
             <tr>
               <td style={{ textAlign: "left" }}>Acceptance Fee</td>
               <td>
                 <b>₦50,000</b>
               </td>
-              <td style={{ textAlign: "right" }}>One-time payment</td>
+              <td style={{ textAlign: "center" }}>One-time payment</td>
             </tr>
             <tr>
               <td style={{ textAlign: "left" }}>Tuition Fee (Per Session)</td>
               <td>
                 <b>₦150,000 - ₦200,000</b>
               </td>
-              <td style={{ textAlign: "right" }}>Varies by program</td>
+              <td style={{ textAlign: "center" }}>Varies by program</td>
             </tr>
             <tr>
               <td style={{ textAlign: "left" }}>Accommodation (Per Session)</td>
               <td>
                 <b>₦80,000</b>
               </td>
-              <td style={{ textAlign: "right" }}>Optional</td>
+              <td style={{ textAlign: "center" }}>Optional</td>
             </tr>
             <tr>
               <td style={{ textAlign: "left" }}>Development Levy</td>
               <td>
                 <b>₦25,000</b>
               </td>
-              <td style={{ textAlign: "right" }}>Annual</td>
+              <td style={{ textAlign: "center" }}>Annual</td>
             </tr>
             <tr>
               <td style={{ textAlign: "left" }}>Medical/Lab Fee</td>
               <td>
                 <b>₦30,000</b>
               </td>
-              <td style={{ textAlign: "right" }}>Per session</td>
+              <td style={{ textAlign: "center" }}>Per session</td>
             </tr>
           </table>
         </section>
@@ -259,24 +279,6 @@ function Admissions() {
                 Scholarships and financial aid available for qualified students
               </li>
             </ul>
-          </div>
-        </section>
-        <section className="ready-to-apply">
-          <div>
-            <h2>Ready to Apply?</h2>
-            <p>
-              Take the first step towards your healthcare career. Download our
-              application form or visit our admissions office for personalized
-              guidance.
-            </p>
-          </div>
-          <div className="btn-container">
-            <a href={pdf} download="application-form">
-              <button>
-                <FaDownload style={{ marginRight: "10px" }} />
-                Download Application Form
-              </button>
-            </a>
           </div>
         </section>
       </main>

@@ -5,10 +5,12 @@ import Contact from "./Pages/Contact";
 import Facilities from "./Pages/Facilities";
 import Admissions from "./Pages/Admissions";
 import Programs from "./Pages/Programs";
+import { ScrollTop } from "./Components/ScrollTop";
 
 const App = () => {
   return (
     <HashRouter>
+      <ScrollTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/facilities" element={<Facilities />} />

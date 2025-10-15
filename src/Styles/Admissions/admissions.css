@@ -19,7 +19,7 @@
 }
 .intro .admission-process {
   text-align: center;
-  margin-top: 6rem;
+  margin-top: 10rem;
 }
 .intro .admission-process h2 {
   font-size: 3rem;
@@ -178,14 +178,19 @@ table td {
 }
 
 .ready-to-apply {
-  margin-bottom: 12rem;
+  margin-top: 12rem;
+  margin-bottom: 10rem;
   justify-items: center;
 }
 .ready-to-apply h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 700;
-  color: red;
+  color: green;
   text-align: center;
+}
+.ready-to-apply p {
+  color: red;
+  font-weight: 700;
 }
 .ready-to-apply button {
   background-color: green;
@@ -198,4 +203,221 @@ table td {
 .ready-to-apply button:hover {
   color: white;
   transform: scaleX(1.1) scaleY(1.1);
+}
+
+@media (max-width: 500px) {
+  .ready-to-apply {
+    padding: 10px;
+    text-align: center;
+    margin-top: 5rem;
+  }
+  .admission-process h2 {
+    padding: 11px;
+  }
+  .admission-process .admission-process-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+  }
+  .admission-process .admission-process-card {
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .program-requirements {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .program-requirements ul {
+    text-align: left;
+  }
+  .important-dates .important-dates-card-container {
+    display: flex;
+    flex-direction: column;
+  }
+  table {
+    margin: auto;
+    width: 25rem;
+  }
+  table th {
+    border-bottom: 1px solid grey;
+    padding: 10px;
+  }
+  table td {
+    padding: 10px;
+    height: 2rem;
+    border-bottom: 1px solid grey;
+  }
+  .payment-info ul {
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+@media (min-width: 501px) and (max-width: 700px) {
+  .ready-to-apply {
+    padding: 10px;
+    text-align: center;
+    margin-top: 5rem;
+  }
+  .admission-process h2 {
+    padding: 11px;
+  }
+  .admission-process .admission-process-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+  }
+  .admission-process .admission-process-card {
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .program-requirements {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .program-requirements ul {
+    text-align: left;
+  }
+  .important-dates .important-dates-card-container {
+    display: flex;
+    flex-direction: column;
+  }
+  table {
+    margin: auto;
+    width: 30rem;
+  }
+  table th {
+    border-bottom: 1px solid grey;
+    padding: 10px;
+  }
+  table td {
+    padding: 10px;
+    height: 2rem;
+    border-bottom: 1px solid grey;
+  }
+  .payment-info ul {
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+@media (min-width: 701px) and (max-width: 900px) {
+  .ready-to-apply {
+    padding: 10px;
+    text-align: center;
+    margin-top: 5rem;
+  }
+  .admission-process h2 {
+    padding: 11px;
+  }
+  .admission-process .admission-process-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+  }
+  .admission-process .admission-process-card {
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .program-requirements {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .program-requirements .diploma-requirements {
+    justify-items: center;
+  }
+  .program-requirements .hnd-requirements {
+    justify-items: center;
+  }
+  .program-requirements ul {
+    text-align: left;
+  }
+  .important-dates .important-dates-card-container {
+    display: flex;
+    flex-direction: column;
+  }
+  table {
+    margin: auto;
+    width: 40rem;
+  }
+  table th {
+    border-bottom: 1px solid grey;
+    padding: 10px;
+  }
+  table td {
+    padding: 10px;
+    height: 2rem;
+    border-bottom: 1px solid grey;
+  }
+  .payment-info ul {
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+@media (min-width: 901px) and (max-width: 1200px) {
+  .ready-to-apply {
+    padding: 10px;
+    text-align: center;
+    margin-top: 5rem;
+  }
+  .admission-process h2 {
+    padding: 11px;
+  }
+  .admission-process .admission-process-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+  }
+  .admission-process .admission-process-card {
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .program-requirements {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .program-requirements .diploma-requirements {
+    justify-items: center;
+  }
+  .program-requirements .hnd-requirements {
+    justify-items: center;
+  }
+  .program-requirements ul {
+    text-align: left;
+  }
+  .important-dates .important-dates-card-container {
+    display: flex;
+    flex-direction: column;
+  }
+  table {
+    margin: auto;
+    max-width: 55rem;
+  }
+  table th {
+    border-bottom: 1px solid grey;
+    padding: 10px;
+  }
+  table td {
+    padding: 10px;
+    height: 2rem;
+    border-bottom: 1px solid grey;
+  }
+  .payment-info ul {
+    min-width: 40rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
 }/*# sourceMappingURL=admissions.css.map */

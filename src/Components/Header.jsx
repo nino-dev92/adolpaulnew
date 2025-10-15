@@ -1,23 +1,26 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "../Styles/Header/header.css";
+import logo from "../../public/LOGO.png";
 
 function Header() {
   return (
     <nav>
       <header className="header">
-        <div className="header-logo">LOGO</div>
+        <div className="header-logo">
+          <img src={logo} alt="logo" width={120} />
+        </div>
         <div className="header-links">
-          <Link to="/">Home</Link>
-          <Link to="/programs">Programs</Link>
-          <Link to="/admissions">Admissions</Link>
-          <Link to="/facilities">Facilities</Link>
-          <Link to="/contact">Contact</Link>
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/programs">Programs</NavLink>
+          <NavLink to="/admissions">Admissions</NavLink>
+          <NavLink to="/facilities">Facilities</NavLink>
+          <NavLink to="/contact">Contact</NavLink>
         </div>
         <div className="header-btn-container">
-          <Link to="/admissions">
+          <NavLink to="/admissions">
             <button className="header-btn">Apply Now</button>
-          </Link>
+          </NavLink>
         </div>
       </header>
     </nav>
