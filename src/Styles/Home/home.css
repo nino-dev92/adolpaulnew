@@ -230,6 +230,9 @@
   .hero .brochure {
     display: none;
   }
+  .hero .hero-btn-container {
+    margin: auto;
+  }
   .hero .hero-btn {
     margin-bottom: 2rem;
   }
@@ -249,6 +252,7 @@
   .about-card-container {
     display: flex;
     flex-direction: column;
+    justify-self: center;
   }
 }
 @media (min-width: 501px) and (max-width: 700px) {
@@ -256,6 +260,9 @@
     max-height: -moz-fit-content;
     max-height: fit-content;
     margin-top: 5rem;
+  }
+  .hero .hero-btn-container {
+    margin: auto;
   }
   .hero .intro-text {
     margin: auto;
@@ -294,6 +301,7 @@
   .about-card-container {
     display: flex;
     flex-wrap: wrap;
+    justify-self: center;
   }
 }
 @media (min-width: 701px) and (max-width: 900px) {
@@ -301,6 +309,9 @@
     max-height: -moz-fit-content;
     max-height: fit-content;
     margin-top: 9rem;
+  }
+  .hero .hero-btn-container {
+    margin: auto;
   }
   .hero .intro-text {
     margin: auto;
@@ -348,6 +359,9 @@
     max-height: -moz-fit-content;
     max-height: fit-content;
     margin-top: 10rem;
+  }
+  .hero .hero-btn-container {
+    margin: auto;
   }
   .hero .intro-text {
     margin: auto;

@@ -201,13 +201,23 @@ table {
     }
   }
 }
-@media (max-width: 500px) {
+
+@media (min-width: 330px) and (max-width: 500px) {
   .ready-to-apply {
     padding: 10px;
     text-align: center;
     margin-top: 3rem;
+    p {
+      text-align: center;
+      margin: auto;
+    }
+    .btn-container {
+      margin: auto;
+    }
   }
   .admission-process {
+    justify-content: center;
+    justify-items: center;
     h2 {
       padding: 11px;
     }
@@ -215,6 +225,7 @@ table {
       display: flex;
       flex-direction: column;
       justify-self: center;
+      margin: auto;
     }
     .admission-process-card {
       border: 1px solid grey;

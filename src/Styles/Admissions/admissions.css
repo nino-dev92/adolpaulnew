@@ -205,11 +205,22 @@ table td {
   transform: scaleX(1.1) scaleY(1.1);
 }
 
-@media (max-width: 500px) {
+@media (min-width: 330px) and (max-width: 500px) {
   .ready-to-apply {
     padding: 10px;
     text-align: center;
     margin-top: 3rem;
+  }
+  .ready-to-apply p {
+    text-align: center;
+    margin: auto;
+  }
+  .ready-to-apply .btn-container {
+    margin: auto;
+  }
+  .admission-process {
+    justify-content: center;
+    justify-items: center;
   }
   .admission-process h2 {
     padding: 11px;
@@ -218,6 +229,7 @@ table td {
     display: flex;
     flex-direction: column;
     justify-self: center;
+    margin: auto;
   }
   .admission-process .admission-process-card {
     border: 1px solid grey;
