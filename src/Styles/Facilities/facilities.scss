@@ -149,7 +149,7 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (min-width: 320px) and (max-width: 499px) {
   .fac-intro-text {
     margin-top: 6rem;
   }
@@ -162,6 +162,47 @@
     }
   }
   .additional-facilities {
+    .additional-card-holder {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  .infrastructure-highlight {
+    width: fit-content;
+    justify-items: center;
+    padding: 25px;
+    margin: auto;
+    margin-bottom: 4rem;
+    .infrastructure-card-holder {
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      margin-bottom: 4rem;
+      .infrastructure-card {
+        border: 1px solid grey;
+        padding: 15px;
+        border-radius: 10px;
+      }
+    }
+  }
+}
+@media (max-width: 500px) {
+  body {
+    overflow-x: hidden;
+  }
+  .fac-intro-text {
+    margin-top: 6rem;
+  }
+  .facility-card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    .btn-container {
+      justify-content: center;
+    }
+  }
+  .additional-facilities {
+    margin: auto;
     .additional-card-holder {
       display: flex;
       flex-direction: column;

@@ -88,6 +88,11 @@ body {
     .program-card {
       border: 1px solid grey;
       border-radius: 10px;
+      .modules {
+        display: flex;
+        flex-wrap: wrap;
+        // justify-content: center;
+      }
     }
   }
 }
@@ -110,9 +115,6 @@ body {
   }
 }
 @media (min-width: 701px) and (max-width: 1000px) {
-  .intro-text {
-    // margin-top: 1rem;
-  }
   .card-section {
     display: flex;
     flex-direction: column;

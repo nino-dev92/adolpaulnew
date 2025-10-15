@@ -162,8 +162,51 @@
     justify-content: center;
   }
 }
-
-@media (max-width: 500px) {
+@media (min-width: 320px) and (max-width: 450px) {
+  .hero {
+    max-height: fit-content;
+    margin-top: 3rem;
+    .intro-text {
+      margin: auto;
+      text-align: center;
+      h1 {
+        font-size: 2rem;
+        line-height: 70px;
+        margin-bottom: 2rem;
+      }
+      p {
+        font-size: 1.3rem;
+        line-height: 29px;
+        font-weight: 700;
+      }
+    }
+    .brochure {
+      display: none;
+    }
+    .hero-btn {
+      margin-bottom: 2rem;
+    }
+  }
+  .hero-card-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .about-college {
+    padding: 10px;
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  }
+  .about-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+  }
+}
+@media (min-width: 451px) and (max-width: 500px) {
   .hero {
     max-height: fit-content;
     margin-top: 3rem;

@@ -96,6 +96,10 @@ body {
     border: 1px solid grey;
     border-radius: 10px;
   }
+  .card-section .program-card .modules {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 @media (min-width: 501px) and (max-width: 700px) {
   .intro-section {

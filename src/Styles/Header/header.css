@@ -52,14 +52,32 @@ Link :active {
   color: red;
 }
 
-@media (max-width: 500px) {
+@media (min-width: 300px) and (max-width: 374px) {
   header {
-    display: flex;
-    justify-content: space-around;
     height: 4rem;
   }
   header .header-links {
     margin: auto;
+  }
+  header .header-links a {
+    font-size: 11.5px;
+  }
+  header .header-logo,
+  header .header-btn-container {
+    display: none;
+  }
+}
+@media (min-width: 375px) and (max-width: 500px) {
+  header {
+    height: 4rem;
+  }
+  header .header-links {
+    margin: auto;
+    display: flex;
+    gap: 5px;
+  }
+  header .header-links a {
+    font-size: 13px;
   }
   header .header-logo,
   header .header-btn-container {
