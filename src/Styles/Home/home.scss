@@ -7,6 +7,7 @@
   background-size: cover;
   margin-top: 7.8rem;
   min-height: 36rem;
+  padding-bottom: 1rem;
   animation-name: change;
   animation-timing-function: ease;
   animation-duration: 10s;
@@ -56,6 +57,7 @@
   justify-self: center;
   display: flex;
   gap: 1rem;
+  margin-bottom: 2rem;
 
   a {
     text-decoration: none;
@@ -125,8 +127,12 @@
   }
 }
 .about-card-section {
+  display: flex;
   justify-content: center;
   justify-items: center;
+  justify-self: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .about-card-container {
   display: flex;
@@ -192,8 +198,11 @@
     }
   }
   .hero-btn-container {
-    margin-top: 4rem;
-    display: flex;
+    margin-top: 2rem;
+    // margin: auto;
+    justify-content: center;
+    justify-self: center;
+    margin-bottom: 2rem;
   }
   .hero-card-section {
     display: flex;
@@ -243,8 +252,8 @@
   }
   .hero-btn-container {
     margin: auto;
+    justify-content: center;
     justify-self: center;
-    display: flex;
   }
   .hero-card-section {
     display: flex;
@@ -295,6 +304,7 @@
   }
   .hero-btn-container {
     margin: auto;
+    justify-content: center;
     justify-self: center;
     display: flex;
   }
@@ -347,6 +357,7 @@
   }
   .hero-btn-container {
     margin: auto;
+    justify-content: center;
     justify-self: center;
     display: flex;
   }
@@ -397,6 +408,7 @@
   }
   .hero-btn-container {
     margin: auto;
+    justify-content: center;
     justify-self: center;
     display: flex;
   }

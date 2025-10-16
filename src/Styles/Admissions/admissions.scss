@@ -22,6 +22,8 @@
   .admission-process {
     text-align: center;
     margin-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
     h2 {
       font-size: 3rem;
       font-weight: 700;
@@ -167,12 +169,11 @@ table {
     align-content: center;
   }
   .list {
-    margin: auto;
-    justify-self: center;
-    justify-content: center;
+    margin-left: auto;
+
     ul {
-      margin-left: auto;
-      margin-right: auto;
+      display: flex;
+      justify-self: center;
       background-color: rgb(200, 195, 195);
       padding: 2rem 3rem;
       border-radius: 5px;
@@ -278,13 +279,13 @@ table {
   }
   .payment-info {
     .list {
-      justify-self: center;
-      justify-content: center;
+      // margin: auto;
     }
     ul {
       width: 15rem;
       display: flex;
       flex-direction: column;
+      justify-self: center;
       gap: 1rem;
     }
   }
@@ -425,6 +426,8 @@ table {
       width: 30rem;
       display: flex;
       flex-direction: column;
+      display: flex;
+      justify-self: center;
       gap: 1rem;
     }
   }
@@ -497,14 +500,13 @@ table {
   }
   .payment-info {
     .list {
-      justify-self: center;
-      justify-content: center;
     }
     ul {
       min-width: 40rem;
       display: flex;
       flex-direction: column;
       gap: 1rem;
+      justify-self: center;
     }
   }
 }

@@ -20,6 +20,8 @@
 .intro .admission-process {
   text-align: center;
   margin-top: 10rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 .intro .admission-process h2 {
   font-size: 3rem;
@@ -171,13 +173,11 @@ table td {
   align-content: center;
 }
 .payment-info .list {
-  margin: auto;
-  justify-self: center;
-  justify-content: center;
+  margin-left: auto;
 }
 .payment-info .list ul {
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  justify-self: center;
   background-color: rgb(200, 195, 195);
   padding: 2rem 3rem;
   border-radius: 5px;
@@ -277,14 +277,11 @@ table td {
     height: 2rem;
     border-bottom: 1px solid grey;
   }
-  .payment-info .list {
-    justify-self: center;
-    justify-content: center;
-  }
   .payment-info ul {
     width: 15rem;
     display: flex;
     flex-direction: column;
+    justify-self: center;
     gap: 1rem;
   }
 }
@@ -413,6 +410,8 @@ table td {
     width: 30rem;
     display: flex;
     flex-direction: column;
+    display: flex;
+    justify-self: center;
     gap: 1rem;
   }
 }
@@ -477,14 +476,11 @@ table td {
     height: 2rem;
     border-bottom: 1px solid grey;
   }
-  .payment-info .list {
-    justify-self: center;
-    justify-content: center;
-  }
   .payment-info ul {
     min-width: 40rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    justify-self: center;
   }
 }/*# sourceMappingURL=admissions.css.map */
