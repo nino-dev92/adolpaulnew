@@ -29,6 +29,7 @@
 
 .admission-process-card-container {
   display: flex;
+  justify-self: center;
   justify-content: center;
   gap: 2rem;
   margin-left: auto;
@@ -171,7 +172,8 @@ table td {
 }
 .payment-info .list {
   margin: auto;
-  justify-items: center;
+  justify-self: center;
+  justify-content: center;
 }
 .payment-info .list ul {
   margin-left: auto;
@@ -199,6 +201,8 @@ table td {
 }
 .ready-to-apply .btn-container {
   margin: auto;
+  justify-content: center;
+  justify-self: center;
 }
 .ready-to-apply button {
   background-color: green;
@@ -225,6 +229,8 @@ table td {
   }
   .btn-container {
     margin: auto;
+    justify-content: center;
+    justify-self: center;
   }
   .admission-process {
     justify-content: center;
@@ -237,6 +243,7 @@ table td {
     display: flex;
     flex-direction: column;
     justify-self: center;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
   }
@@ -270,6 +277,10 @@ table td {
     height: 2rem;
     border-bottom: 1px solid grey;
   }
+  .payment-info .list {
+    justify-self: center;
+    justify-content: center;
+  }
   .payment-info ul {
     width: 15rem;
     display: flex;
@@ -285,6 +296,8 @@ table td {
   }
   .btn-container {
     margin: auto;
+    justify-content: center;
+    justify-self: center;
   }
   .admission-process h2 {
     padding: 11px;
@@ -293,6 +306,7 @@ table td {
     display: flex;
     flex-direction: column;
     justify-self: center;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
   }
@@ -341,6 +355,8 @@ table td {
   }
   .btn-container {
     margin: auto;
+    justify-content: center;
+    justify-self: center;
   }
   .admission-process h2 {
     padding: 11px;
@@ -349,6 +365,7 @@ table td {
     display: flex;
     flex-wrap: wrap;
     justify-self: center;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
   }
@@ -388,6 +405,10 @@ table td {
     height: 2rem;
     border-bottom: 1px solid grey;
   }
+  .payment-info .list {
+    justify-self: center;
+    justify-content: center;
+  }
   .payment-info ul {
     width: 30rem;
     display: flex;
@@ -403,6 +424,8 @@ table td {
   }
   .btn-container {
     margin: auto;
+    justify-content: center;
+    justify-self: center;
   }
   .btn-container .ready-to-apply button {
     margin: auto;
@@ -414,6 +437,7 @@ table td {
     display: flex;
     flex-wrap: wrap;
     justify-self: center;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
   }
@@ -452,6 +476,10 @@ table td {
     padding: 10px;
     height: 2rem;
     border-bottom: 1px solid grey;
+  }
+  .payment-info .list {
+    justify-self: center;
+    justify-content: center;
   }
   .payment-info ul {
     min-width: 40rem;

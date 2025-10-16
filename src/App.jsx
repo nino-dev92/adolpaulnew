@@ -6,6 +6,7 @@ import Facilities from "./Pages/Facilities";
 import Admissions from "./Pages/Admissions";
 import Programs from "./Pages/Programs";
 import { ScrollTop } from "./Components/ScrollTop";
+import "./App.css";
 
 const App = () => {
   return (

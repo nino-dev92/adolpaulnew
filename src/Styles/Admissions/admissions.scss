@@ -31,6 +31,7 @@
 }
 .admission-process-card-container {
   display: flex;
+  justify-self: center;
   justify-content: center;
   gap: 2rem;
   margin-left: auto;
@@ -167,7 +168,8 @@ table {
   }
   .list {
     margin: auto;
-    justify-items: center;
+    justify-self: center;
+    justify-content: center;
     ul {
       margin-left: auto;
       margin-right: auto;
@@ -195,6 +197,8 @@ table {
   }
   .btn-container {
     margin: auto;
+    justify-content: center;
+    justify-self: center;
   }
   button {
     background-color: $primary-color;
@@ -222,6 +226,8 @@ table {
   }
   .btn-container {
     margin: auto;
+    justify-content: center;
+    justify-self: center;
   }
   .admission-process {
     justify-content: center;
@@ -233,6 +239,7 @@ table {
       display: flex;
       flex-direction: column;
       justify-self: center;
+      justify-content: center;
       margin-left: auto;
       margin-right: auto;
     }
@@ -270,6 +277,10 @@ table {
     }
   }
   .payment-info {
+    .list {
+      justify-self: center;
+      justify-content: center;
+    }
     ul {
       width: 15rem;
       display: flex;
@@ -286,6 +297,8 @@ table {
   }
   .btn-container {
     margin: auto;
+    justify-content: center;
+    justify-self: center;
   }
   .admission-process {
     h2 {
@@ -295,6 +308,7 @@ table {
       display: flex;
       flex-direction: column;
       justify-self: center;
+      justify-content: center;
       margin-left: auto;
       margin-right: auto;
     }
@@ -348,6 +362,8 @@ table {
   }
   .btn-container {
     margin: auto;
+    justify-content: center;
+    justify-self: center;
   }
   .admission-process {
     h2 {
@@ -357,6 +373,7 @@ table {
       display: flex;
       flex-wrap: wrap;
       justify-self: center;
+      justify-content: center;
       margin-left: auto;
       margin-right: auto;
     }
@@ -400,6 +417,10 @@ table {
     }
   }
   .payment-info {
+    .list {
+      justify-self: center;
+      justify-content: center;
+    }
     ul {
       width: 30rem;
       display: flex;
@@ -416,7 +437,8 @@ table {
   }
   .btn-container {
     margin: auto;
-
+    justify-content: center;
+    justify-self: center;
     .ready-to-apply button {
       margin: auto;
     }
@@ -429,6 +451,7 @@ table {
       display: flex;
       flex-wrap: wrap;
       justify-self: center;
+      justify-content: center;
       margin-left: auto;
       margin-right: auto;
     }
@@ -473,6 +496,10 @@ table {
     }
   }
   .payment-info {
+    .list {
+      justify-self: center;
+      justify-content: center;
+    }
     ul {
       min-width: 40rem;
       display: flex;

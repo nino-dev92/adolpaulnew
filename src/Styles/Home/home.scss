@@ -56,7 +56,6 @@
   justify-self: center;
   display: flex;
   gap: 1rem;
-  margin: auto;
 
   a {
     text-decoration: none;
@@ -66,7 +65,6 @@
     height: 2rem;
     padding: 2rem 2rem;
     border-radius: 5px;
-    margin-bottom: 3rem;
     display: flex;
     align-items: center;
     background-color: $primary-color;
@@ -135,6 +133,7 @@
   flex-direction: row;
   gap: 4rem;
   justify-content: center;
+  justify-self: center;
   margin-top: 6rem;
   margin-bottom: 6rem;
   margin-left: auto;
@@ -191,9 +190,10 @@
     .brochure {
       display: none;
     }
-    .hero-btn {
-      margin-bottom: 2rem;
-    }
+  }
+  .hero-btn-container {
+    margin-top: 4rem;
+    display: flex;
   }
   .hero-card-section {
     display: flex;
@@ -211,6 +211,7 @@
   .about-card-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     justify-self: center;
   }
 }
@@ -242,6 +243,8 @@
   }
   .hero-btn-container {
     margin: auto;
+    justify-self: center;
+    display: flex;
   }
   .hero-card-section {
     display: flex;
@@ -259,6 +262,7 @@
   .about-card-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     justify-self: center;
   }
 }
@@ -291,6 +295,8 @@
   }
   .hero-btn-container {
     margin: auto;
+    justify-self: center;
+    display: flex;
   }
   .hero-card-section {
     display: flex;
@@ -308,6 +314,7 @@
   .about-card-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     justify-self: center;
   }
 }
@@ -340,6 +347,8 @@
   }
   .hero-btn-container {
     margin: auto;
+    justify-self: center;
+    display: flex;
   }
   .hero-card-section {
     gap: 4rem;
@@ -388,6 +397,8 @@
   }
   .hero-btn-container {
     margin: auto;
+    justify-self: center;
+    display: flex;
   }
   .hero-card-section {
     gap: 4rem;
