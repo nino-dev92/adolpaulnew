@@ -54,10 +54,12 @@
   }
 }
 .hero-btn-container {
-  justify-self: center;
   display: flex;
+  justify-content: center;
+  margin: auto;
   gap: 1rem;
   margin-bottom: 2rem;
+  margin-top: 4rem;
 
   a {
     text-decoration: none;
@@ -196,10 +198,8 @@
   }
   .hero-btn-container {
     margin-top: 2rem;
-    display: block;
-    margin: auto;
+    display: flex;
     justify-content: center;
-    justify-self: center;
     margin-bottom: 2rem;
   }
   .hero-card-section {
@@ -251,10 +251,8 @@
     }
   }
   .hero-btn-container {
-    display: block;
-    margin: auto;
+    display: flex;
     justify-content: center;
-    justify-self: center;
   }
   .hero-card-section {
     display: flex;
@@ -308,11 +306,8 @@
     }
   }
   .hero-btn-container {
-    margin: auto;
+    display: flex;
     justify-content: center;
-    justify-self: center;
-    display: block;
-    margin: auto;
   }
   .hero-card-section {
     display: flex;
@@ -366,11 +361,8 @@
     }
   }
   .hero-btn-container {
-    margin: auto;
+    display: flex;
     justify-content: center;
-    justify-self: center;
-    display: block;
-    margin: auto;
   }
   .hero-card-section {
     gap: 4rem;
