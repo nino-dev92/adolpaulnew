@@ -33,6 +33,8 @@
   display: flex;
   justify-content: center;
   gap: 2rem;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 5rem;
   .admission-process-card {
     margin-top: 2rem;
@@ -59,6 +61,7 @@
       border: none;
       border-radius: 10px;
       padding: 10px;
+      color: white;
     }
   }
 }
@@ -166,6 +169,8 @@ table {
     margin: auto;
     justify-items: center;
     ul {
+      margin-left: auto;
+      margin-right: auto;
       background-color: rgb(200, 195, 195);
       padding: 2rem 3rem;
       border-radius: 5px;
@@ -187,6 +192,9 @@ table {
   p {
     color: $secondary-color;
     font-weight: 700;
+  }
+  .btn-container {
+    margin: auto;
   }
   button {
     background-color: $primary-color;
@@ -211,9 +219,9 @@ table {
       text-align: center;
       margin: auto;
     }
-    .btn-container {
-      margin: auto;
-    }
+  }
+  .btn-container {
+    margin: auto;
   }
   .admission-process {
     justify-content: center;
@@ -225,7 +233,8 @@ table {
       display: flex;
       flex-direction: column;
       justify-self: center;
-      margin: auto;
+      margin-left: auto;
+      margin-right: auto;
     }
     .admission-process-card {
       border: 1px solid grey;
@@ -275,6 +284,9 @@ table {
     text-align: center;
     margin-top: 4rem;
   }
+  .btn-container {
+    margin: auto;
+  }
   .admission-process {
     h2 {
       padding: 11px;
@@ -283,6 +295,8 @@ table {
       display: flex;
       flex-direction: column;
       justify-self: center;
+      margin-left: auto;
+      margin-right: auto;
     }
     .admission-process-card {
       border: 1px solid grey;
@@ -332,6 +346,9 @@ table {
     text-align: center;
     margin-top: 8rem;
   }
+  .btn-container {
+    margin: auto;
+  }
   .admission-process {
     h2 {
       padding: 11px;
@@ -340,6 +357,8 @@ table {
       display: flex;
       flex-wrap: wrap;
       justify-self: center;
+      margin-left: auto;
+      margin-right: auto;
     }
     .admission-process-card {
       border: 1px solid grey;
@@ -395,6 +414,13 @@ table {
     text-align: center;
     margin-top: 10rem;
   }
+  .btn-container {
+    margin: auto;
+
+    .ready-to-apply button {
+      margin: auto;
+    }
+  }
   .admission-process {
     h2 {
       padding: 11px;
@@ -403,6 +429,8 @@ table {
       display: flex;
       flex-wrap: wrap;
       justify-self: center;
+      margin-left: auto;
+      margin-right: auto;
     }
     .admission-process-card {
       border: 1px solid grey;

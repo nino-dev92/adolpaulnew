@@ -53,6 +53,7 @@
   justify-self: center;
   display: flex;
   gap: 1rem;
+  margin: auto;
 }
 .hero-btn-container a {
   text-decoration: none;
@@ -124,12 +125,20 @@
   font-size: 1.2rem;
 }
 
+.about-card-section {
+  justify-content: center;
+  justify-items: center;
+}
+
 .about-card-container {
   display: flex;
   flex-direction: row;
   gap: 4rem;
   justify-content: center;
-  margin: 6rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  margin-left: auto;
+  margin-right: auto;
   cursor: pointer;
 }
 .about-card-container .about-card {
@@ -230,11 +239,11 @@
   .hero .brochure {
     display: none;
   }
-  .hero .hero-btn-container {
-    margin: auto;
-  }
   .hero .hero-btn {
     margin-bottom: 2rem;
+  }
+  .hero-btn-container {
+    margin: auto;
   }
   .hero-card-section {
     display: flex;
@@ -261,9 +270,6 @@
     max-height: fit-content;
     margin-top: 5rem;
   }
-  .hero .hero-btn-container {
-    margin: auto;
-  }
   .hero .intro-text {
     margin: auto;
     text-align: center;
@@ -284,6 +290,9 @@
   }
   .hero .hero-btn {
     margin-bottom: 2rem;
+  }
+  .hero-btn-container {
+    margin: auto;
   }
   .hero-card-section {
     display: flex;
@@ -310,9 +319,6 @@
     max-height: fit-content;
     margin-top: 9rem;
   }
-  .hero .hero-btn-container {
-    margin: auto;
-  }
   .hero .intro-text {
     margin: auto;
     text-align: center;
@@ -333,6 +339,9 @@
   }
   .hero .hero-btn {
     margin-bottom: 2rem;
+  }
+  .hero-btn-container {
+    margin: auto;
   }
   .hero-card-section {
     gap: 4rem;
@@ -360,9 +369,6 @@
     max-height: fit-content;
     margin-top: 10rem;
   }
-  .hero .hero-btn-container {
-    margin: auto;
-  }
   .hero .intro-text {
     margin: auto;
     text-align: center;
@@ -380,6 +386,9 @@
   }
   .hero .hero-btn {
     margin-bottom: 2rem;
+  }
+  .hero-btn-container {
+    margin: auto;
   }
   .hero-card-section {
     gap: 4rem;
