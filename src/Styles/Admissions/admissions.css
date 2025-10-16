@@ -20,8 +20,11 @@
 .intro .admission-process {
   text-align: center;
   margin-top: 10rem;
-  margin-left: auto;
-  margin-right: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
 }
 .intro .admission-process h2 {
   font-size: 3rem;
@@ -30,12 +33,10 @@
 }
 
 .admission-process-card-container {
+  width: 70rem;
   display: flex;
-  justify-self: center;
-  justify-content: center;
+  flex-direction: row;
   gap: 2rem;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 5rem;
 }
 .admission-process-card-container .admission-process-card {
@@ -43,8 +44,6 @@
   width: 15rem;
   height: -moz-fit-content;
   height: fit-content;
-  justify-content: center;
-  align-content: center;
   padding: 10px;
 }
 .admission-process-card-container .admission-process-card p {
@@ -157,7 +156,8 @@ table td {
 }
 
 .payment-info {
-  margin: 12rem;
+  margin-top: 12rem;
+  margin-bottom: 12rem;
 }
 .payment-info h2 {
   font-size: 2rem;
@@ -173,10 +173,15 @@ table td {
   align-content: center;
 }
 .payment-info .list {
-  margin-left: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: block;
+  margin: auto;
+  justify-items: center;
 }
 .payment-info .list ul {
   display: flex;
+  flex-direction: column;
   justify-self: center;
   background-color: rgb(200, 195, 195);
   padding: 2rem 3rem;
@@ -242,10 +247,10 @@ table td {
   .admission-process .admission-process-card-container {
     display: flex;
     flex-direction: column;
-    justify-self: center;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 4rem;
   }
   .admission-process .admission-process-card {
     border: 1px solid grey;
@@ -302,10 +307,10 @@ table td {
   .admission-process .admission-process-card-container {
     display: flex;
     flex-direction: column;
-    justify-self: center;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 4rem;
   }
   .admission-process .admission-process-card {
     border: 1px solid grey;
@@ -359,6 +364,8 @@ table td {
     padding: 11px;
   }
   .admission-process .admission-process-card-container {
+    width: -moz-fit-content;
+    width: fit-content;
     display: flex;
     flex-wrap: wrap;
     justify-self: center;
@@ -403,8 +410,9 @@ table td {
     border-bottom: 1px solid grey;
   }
   .payment-info .list {
-    justify-self: center;
-    justify-content: center;
+    width: 2rem;
+    display: block;
+    margin: auto;
   }
   .payment-info ul {
     width: 30rem;
@@ -475,6 +483,11 @@ table td {
     padding: 10px;
     height: 2rem;
     border-bottom: 1px solid grey;
+  }
+  .payment-info .list {
+    width: 2rem;
+    display: block;
+    margin: auto;
   }
   .payment-info ul {
     min-width: 40rem;
