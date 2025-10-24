@@ -68,7 +68,8 @@ function Footer() {
             <div className="contact-info">
               <p>
                 <FaLocationDot style={{ marginRight: "4px" }} />
-                Adol Paul College of Health Technology Utuh, Nigeria.
+                Adol Paul College of Health Technology Utuh, Anambra State,
+                Nigeria.
               </p>
               <p>
                 <BsFillTelephoneFill /> 08033019121

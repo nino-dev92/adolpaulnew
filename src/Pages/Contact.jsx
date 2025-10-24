@@ -70,7 +70,7 @@ function Contact() {
                 <div className="contact-info-card-text">
                   <h3>Campus Address</h3>
                   <p>
-                    Adol Paul College of Health Technology Utuh, Enugu State
+                    Adol Paul College of Health Technology Utuh, Anambra State
                     Nigeria
                   </p>
                 </div>
@@ -83,7 +83,8 @@ function Contact() {
                 </div>
                 <div className="contact-info-card-text">
                   <h3>Phone Numbers</h3>
-                  <p>Main Office: 08033019121</p>
+                  <p>Main Office: 08033019121, 07076092027</p>
+                  <p>Admin: 09169555066</p>
                   <p>Admissions: 09016955066</p>
                 </div>
               </div>

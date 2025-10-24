@@ -27,8 +27,8 @@ function Home() {
             </h1>
             <p>
               Empowering healthcare professionals with world-class education and
-              training in health technology. Located in Utuh, we're committed to
-              excellence in healthcare education.
+              training in health technology. Located in Utuh, Anambra State,
+              we're committed to excellence in healthcare education.
             </p>
           </div>
           <div className="hero-btn-container">
