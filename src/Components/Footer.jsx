@@ -72,7 +72,7 @@ function Footer() {
                 Nigeria.
               </p>
               <p>
-                <BsFillTelephoneFill /> 08033019121
+                <BsFillTelephoneFill /> 07076092027
               </p>
               <p>
                 <MdOutlineMailOutline /> info@adolpaulcollege.edu.ng
